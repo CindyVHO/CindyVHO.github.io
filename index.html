@@ -1,8 +1,41 @@
-<html>
+<html ng-app="presentation">
     <head>
         <title>CV - Cindy Hern&aacute;ndez</title>
+        <script src="js/vendor/angular.min.js"></script>
+        <script src="js/vendor/angular-route.min.js"></script>
     </head>
     <body>
-        <p>Hello World!</p>
+        <div>
+            <div class="leftMenu" id="panelMenu">
+                <img src="">
+                <div class="menu" id="menu">
+                    <ul>
+                        <li>
+                            <img src="">
+                            <span>About me</span>
+                        </li>
+                        <li>Education</li>
+                        <li>Develop</li>
+                        <li>Lead</li>
+                        <li>Research</li>
+                    </ul>
+                </div>
+                <div id="redSocial">
+                    <ul class="logos">
+                        <li><a href="" id="facebook"><img src=""/></a></li>
+                        <li><a href="" id="twitter"><img src=""/></a></li>
+                        <li><a href="" id="google"><img src=""/></a></li>
+                        <li><a href="" id="linkedin"><img src=""/></a></li>
+                        <li><a href="" id="skype"><img src=""/></a></li>
+                    </ul>
+                </div>
+                <p>&copy; 2015. All rights reserved.</p>
+            </div>
+            <div ng-view>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+        <script src="js/router.js"></script>
+        <script src="js/homeController.js"></script>
     </body>
 </html>
