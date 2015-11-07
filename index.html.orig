@@ -40,13 +40,36 @@
                         <li>
                             <div>
                                 <img src="./img/ic_find_in_page_white_24dp_1x.png">
-                                <span>Research</span>
+                                <span>Research</span> 
                             </div>
+                        </li>
+<<<<<<< HEAD
+                    </ul>
+                </div>
+                <div id="redSocial" class="contact-wrapper">
+                    <ul class="logos">
+=======
+                        <li>
+                            <img src="">
+                            <span>Education</span>
+                        </li>
+                        <li>
+                            <img src="">
+                            <span>Develop</span>
+                        </li>
+                        <li>
+                            <img src="">
+                            <span>Lead</span>
+                        </li>
+                        <li>
+                            <img src="">
+                            <span>Research</span>
                         </li>
                     </ul>
                 </div>
                 <div id="redSocial">
                      <ul class="logos">
+>>>>>>> origin/master
                         <li><a href="" id="facebook"><img src=""/></a></li>
                         <li><a href="" id="twitter"><img src=""/></a></li>
                         <li><a href="" id="google"><img src=""/></a></li>

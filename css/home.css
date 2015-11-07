@@ -1,0 +1,33 @@
+.home-wrapper{
+	text-align: center;
+}
+
+.home-wrapper .image-wrapper{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin:  150px auto 50px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.home-wrapper .image-wrapper:hover{
+	border: solid 3px #3CDFD1;
+	margin: 147px auto 47px;
+}
+
+.home-wrapper .image-wrapper img{
+	width: 200px;
+	height: 200px;
+}
+
+.home-wrapper .name{
+	font-family: 'niconneregular';
+	font-size: 4em;
+	padding: 0;
+	margin: 0;
+}
+
+.home-wrapper .legend{
+	font-size: 2em;
+}
