@@ -1,0 +1,117 @@
+html, body{
+	overflow-x: hidden; 
+	margin: 0;
+	padding: 0;
+	position: relative;
+	color: #FFF;
+	font-family: 'source_sans_proregular';
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.wrapper .left-menu{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #2D2D2D;
+	border-right: solid 1px #52AF70;
+	display: inline-block;
+}
+
+.wrapper .left-menu .menu{
+	height: 100%;
+	text-align: center;
+
+}
+
+.wrapper .left-menu .menu ul{
+	vertical-align: middle;
+	margin: 0;
+	padding: 30vh 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.wrapper .left-menu .menu ul li{
+	margin: 0;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 0;
+}
+
+.wrapper .left-menu .menu ul li:hover{
+	background: #3CDFD1;
+}
+
+.wrapper .left-menu .menu ul li > div{
+	width: 50%;
+	text-align: left;
+	display: inline-block;
+}
+
+.wrapper .left-menu .menu ul li img{
+	vertical-align: top;
+	margin: 3px 0;
+}
+
+.wrapper .left-menu .menu ul li span{
+	line-height: 1.4em;
+    margin: 0px 0;
+    display: inline-block;
+    height: auto;
+    vertical-align: top;
+}
+
+.wrapper .left-menu .contact-wrapper{
+	position: absolute;
+	bottom: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+.wrapper .left-menu .copy{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.wrapper .left-menu ul li{
+	list-style: none;
+}
+
+.wrapper .main-wrapper{
+	width: 80%;
+	display: inline-block;
+	float: right;
+	height: 100%;
+	background-image: url(../img/mainBG.jpg);
+	background-position: 0 0;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.wrapper .main-wrapper .filter{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	z-index: 1;
+}
+
+.wrapper .main-wrapper .view{
+	position: relative;
+	z-index: 55;
+}

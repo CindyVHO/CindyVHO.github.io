@@ -3,25 +3,49 @@
         <title>CV - Cindy Hern&aacute;ndez</title>
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/angular-route.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/fonts/fonts.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+
     </head>
     <body>
-        <div>
-        <!-- This is a test line -->
-            <div class="leftMenu" id="panelMenu">
+        <div class="wrapper">
+            <div class="left-menu" id="panelMenu">
                 <img src="">
                 <div class="menu" id="menu">
                     <ul>
                         <li>
-                            <img src="">
-                            <span>About me</span>
+                            <div>
+                                <img src="./img/ic_face_white_24dp_1x.png">
+                                <span>About me</span>
+                            </div>
                         </li>
-                        <li>Education</li>
-                        <li>Develop</li>
-                        <li>Lead</li>
-                        <li>Research</li>
+                        <li>
+                            <div>
+                                <img src="./img/ic_assignment_white_24dp_1x.png">
+                                <span>Education</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/ic_developer_mode_white_24dp_1x.png">
+                                <span>Develop</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/ic_account_circle_white_24dp_1x.png">
+                                <span>Lead</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/ic_find_in_page_white_24dp_1x.png">
+                                <span>Research</span> 
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div id="redSocial">
+                <div id="redSocial" class="contact-wrapper">
                     <ul class="logos">
                         <li><a href="" id="facebook"><img src=""/></a></li>
                         <li><a href="" id="twitter"><img src=""/></a></li>
@@ -30,9 +54,12 @@
                         <li><a href="" id="skype"><img src=""/></a></li>
                     </ul>
                 </div>
-                <p>&copy; 2015. All rights reserved.</p>
+                <p class="copy">&copy; 2015. All rights reserved.</p>
             </div>
-            <div ng-view>
+            <div class="main-wrapper">
+                <div class="filter"></div>
+                <div class="view" ng-view>
+                </div>
             </div>
         </div>
         <script src="js/app.js"></script>
