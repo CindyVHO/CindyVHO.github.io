@@ -2,5 +2,20 @@ presentation.config(['$routeProvider', function($routeProvider){
     $routeProvider.when('/index', {
         templateUrl: './templates/home.html',
         controller: 'homeController'
-    }).otherwise({redirectTo: '/404'});
+    }).when('/about', {
+        templateUrl: './templates/about.html',
+        controller: 'aboutController'
+    }).when('/develop', {
+        templateUrl: './templates/develop.html',
+        controller: 'developController'
+    }).when('/education', {
+        templateUrl: './templates/education.html',
+        controller: 'educationController'
+    }).when('/lead', {
+        templateUrl: './templates/lead.html',
+        controller: 'leadController'
+    }).when('/research', {
+        templateUrl: './templates/research.html',
+        controller: 'researchController'
+    }).otherwise({redirectTo: '/index'});
 }]);
