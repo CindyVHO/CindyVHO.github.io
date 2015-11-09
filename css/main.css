@@ -115,3 +115,105 @@ html, body{
 	position: relative;
 	z-index: 55;
 }
+
+
+.about-wrapper, .develop-wrapper, .research-wrapper{
+	background: rgba(255,255,255,0.7);
+	width: 96%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: #000000;
+	padding: 0 2%; 
+}
+
+.about-wrapper h2{
+	font-size: 3em;
+	text-align: center;
+	font-family: 'niconneregular';
+
+}
+
+.about-wrapper p{
+	text-align: justify;
+}
+
+.about-wrapper .middle-align{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 2vh 2%;
+}
+
+.about-wrapper .middle-align.center{
+	text-align: center;
+}
+
+.about-wrapper .middle-align h3{
+	font-size: 1.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.develop-wrapper img{
+	width: auto;
+	height: 60%;
+	margin: 20% auto;
+}
+
+.develop-wrapper div h3{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.develop-wrapper div{
+	text-align: center;
+}
+
+.develop-wrapper .img-wrapper{
+	border-radius: 50%;
+	border: solid 10px #3CDFD1;
+	display: inline-block;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+	margin: 10px 40px;
+	background: #FFFFFF;
+}
+
+.develop-wrapper .img-wrapper.three{
+	border-bottom: none;
+}
+
+.develop-wrapper .img-wrapper.two{
+	border-bottom: none;
+	border-right: none;
+}
+
+.develop-wrapper .img-wrapper.one{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;	
+}
+
+.research-wrapper h3{
+	font-size: 2em;
+	text-align: center;
+}
+
+.research-wrapper div{
+	text-align: center;
+}
+
+.research-wrapper div p{
+	font-weight: normal;
+}
+
+.research-wrapper div img{
+	max-width: 448px;
+	height: auto;
+	max-height: 300px;
+}

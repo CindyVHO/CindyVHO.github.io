@@ -9,35 +9,35 @@
     </head>
     <body>
         <div class="wrapper">
-            <div class="left-menu" id="panelMenu">
+            <div class="left-menu" id="panelMenu" ng-controller="menuCtrl">
                 <img src="">
                 <div class="menu" id="menu">
                     <ul>
-                        <li>
+                        <li ng-click="redirect('about')">
                             <div>
                                 <img src="./img/ic_face_white_24dp_1x.png">
                                 <span>About me</span>
                             </div>
                         </li>
-                        <li>
+                        <li ng-click="redirect('education')">
                             <div>
                                 <img src="./img/ic_assignment_white_24dp_1x.png">
                                 <span>Education</span>
                             </div>
                         </li>
-                        <li>
+                        <li ng-click="redirect('develop')">
                             <div>
                                 <img src="./img/ic_developer_mode_white_24dp_1x.png">
                                 <span>Develop</span>
                             </div>
                         </li>
-                        <li>
+                        <li ng-click="redirect('lead')">
                             <div>
                                 <img src="./img/ic_account_circle_white_24dp_1x.png">
                                 <span>Lead</span>
                             </div>
                         </li>
-                        <li>
+                        <li ng-click="redirect('research')">
                             <div>
                                 <img src="./img/ic_find_in_page_white_24dp_1x.png">
                                 <span>Research</span>
@@ -64,5 +64,6 @@
         <script src="js/app.js"></script>
         <script src="js/router.js"></script>
         <script src="js/controllers/homeController.js"></script>
+        <script src="js/controllers/menuController.js"></script>
     </body>
 </html>
