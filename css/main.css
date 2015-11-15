@@ -117,7 +117,7 @@ html, body{
 }
 
 
-.about-wrapper, .develop-wrapper, .research-wrapper{
+.about-wrapper, .develop-wrapper, .research-wrapper, .education-wrapper{
 	background: rgba(255,255,255,0.7);
 	width: 96%;
 	height: 100%;
@@ -216,4 +216,19 @@ html, body{
 	max-width: 448px;
 	height: auto;
 	max-height: 300px;
+}
+
+.education-wrapper div{
+	text-align: center;
+}
+
+.education-wrapper div h2{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.education-wrapper div img{
+	max-width: 300px;
+	height: auto;
 }
