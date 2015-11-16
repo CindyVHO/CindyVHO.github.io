@@ -145,6 +145,47 @@ html, body{
 	margin: 2vh 2%;
 }
 
+.about-wrapper .middle-align.green{
+	color: #FFF;
+	background: rgba(168, 226, 106, 0.6);
+}
+
+.about-wrapper .middle-align.green h3{
+	background: rgba(168, 226, 106, 1);
+	margin: 0 0 15px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.about-wrapper .middle-align.blue{
+	color: #FFF;
+	background: rgba(56, 100, 171, 0.45);
+}
+
+.about-wrapper .middle-align.blue h3{
+	background: rgba(56, 100, 171, 1);
+	margin: 0 0 15px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.about-wrapper .middle-align.red{
+	color: #FFF;
+	background: rgba(217, 53, 88, 0.45);
+}
+
+.about-wrapper .middle-align.red h3{
+	background: rgba(217, 53, 88, 1);
+	margin: 0 0 15px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.about-wrapper .middle-align p{
+	padding: 0 10px;
+	height: 100px;
+}
+
 .about-wrapper .middle-align.center{
 	text-align: center;
 }
